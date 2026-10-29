@@ -1,32 +1,11 @@
-# Gym Tracker Multi-User
+# LiftLab Gym Tracker
 
-Aplikasi Gym Tracker statis yang siap dipublikasikan melalui GitHub Pages.
+1. Buat repository GitHub.
+2. Unggah index.html dan .nojekyll ke root repository (ekstrak ZIP dahulu).
+3. Buka Settings → Pages.
+4. Pilih Deploy from a branch → main → / (root) → Save.
+5. Buka URL yang ditampilkan GitHub Pages.
 
-## Fitur
+Autosave menyimpan setiap perubahan dan draft latihan di browser/perangkat yang sama. Tombol Simpan sesi tetap digunakan untuk memasukkan latihan selesai ke History; draft belum dihitung sebagai sesi selesai.
 
-- Profil dan data terpisah untuk setiap user
-- Workout tracker dan riwayat latihan
-- Body progress dan pencatatan berat badan
-- Kalori tracker
-- Protein, karbohidrat, dan lemak untuk setiap makanan
-- Makanan kustom
-- Backup dan pemulihan data JSON
-- Penyimpanan lokal melalui localStorage browser
-
-## Cara mengunggah ke GitHub Pages
-
-1. Buat repository baru di GitHub.
-2. Unggah seluruh isi folder ini ke root repository. Pastikan `index.html` berada di root.
-3. Buka **Settings > Pages**.
-4. Pada **Build and deployment**, pilih **Deploy from a branch**.
-5. Pilih branch **main** dan folder **/(root)**, lalu klik **Save**.
-6. Tunggu proses deployment selesai, kemudian buka alamat GitHub Pages yang diberikan.
-
-## Catatan penyimpanan data
-
-Data tersimpan di `localStorage` browser, bukan di repository GitHub. Karena itu:
-
-- Data pada browser atau perangkat berbeda tidak otomatis tersinkronisasi.
-- Menghapus data situs/browser dapat menghapus data tracker.
-- Gunakan fitur Backup secara berkala.
-- Jangan menggunakan mode incognito untuk penyimpanan jangka panjang.
+Gunakan URL yang sama setiap kali. Data HTML lokal tidak otomatis pindah ke GitHub Pages: unduh Backup dari versi lama, lalu pulihkan melalui Settings di situs. Data tidak tersinkron antar perangkat/browser dan dapat hilang jika data situs dihapus atau mode samaran ditutup. Unduh Backup secara berkala.
